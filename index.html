@@ -10,23 +10,29 @@
 </head>
 <body>
 	<!-- the body is the entire viewable are of the webpage for example, we can see text, links, images, and media. -->
-
+<header>
 	<h1>Exceptional</h1>
 	<h2>Realty Gropu</h2>
 
 	<!-- links -->
-	<a href="index.html">About</a>
-	<a href="new-properties.html">new properties</a>
-	<a href="real-estate-listings.html">listings</a>
-	<a href="market-report.html">market report</a>
-	<a href="contact.html">contact</a>
-	<a href="http://hud.gov">Housing and Urban Dev</a>
+	<nav>
+		<a href="index.html">About</a>
+		<a href="new-properties.html">new properties</a>
+		<a href="real-estate-listings.html">listings</a>
+		<a href="market-report.html">market report</a>
+		<a href="contact.html">contact</a>
+		<a href="http://hud.gov">Housing and Urban Dev</a>
+	</nav>
+</header>
 
 
 	<p>Hello world.</p>
 	<p>Hello Moon.</p>
-
-	<img src="images/intro-pic.jpg" alt"a beautiful living room" title="welcome to exceptional realty group">
+	<section id="featured-property">
+		<figure>
+		<img src="images/intro-pic.jpg" alt"a beautiful living room" title="welcome to exceptional realty group">
+		<figcaption>Appartment 12 brookyln</figcaption>
+		</figure>
 
 <!-- folder name/ = go inside a folder 
 	filename = user a file in the current directory
@@ -41,13 +47,22 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+	</section>
+
+	<section id="promotional">
 	<video controls>
+		<figure>
 		<source src="videos/Viddeo.bizEstateAgentServices.mp4" type="video/mp4">
-		<source src="videos/Viddeo.bizEstateAgentServices.ogv type="video/ogg">
-
+		<source src="videos/Viddeo.bizEstateAgentServices.ogv" type="video/ogg" >	
 		Your Browser does not support HTML 5 Video. <a href="http://browsehappy.com">Please upgrade your browser.</a>
-
+		<figcaption> This is a promo video</figcaption>
+		</figure>
 	</video>
+	</section>
+
+	<footer>
+			&copy; 2014 Exceptional Realy Group
+	</footer>
 
 
 </body>
