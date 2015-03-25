@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
+
+/* this is a comment! */
+
+p { font-size: 1en;color: blue}
+
+figcaption{
+	font-weight: normal;
+	font-size: .75em
+	line-hieght:1.5em;
+	font-family: georgia, "new times roman" , serif;
+}
+
+.milk-text{font: bold 2.6em googleapis; color: white; text-shadow 0 2px 3px ;
+}
+
+.logo{background: aqua}
