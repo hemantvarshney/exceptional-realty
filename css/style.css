@@ -30,3 +30,13 @@ figcaption{
 	font-weight: bold;
 	font-family: sans-serif;
 }
+
+tr th {
+	text-align: center;
+	background: red;
+}
+
+tr td {
+	text-align: center;
+	background: green;
+}
