@@ -2,7 +2,14 @@
 
 /* this is a comment! */
 
+
 p { font-size: 1en;color: blue}
+
+h1 {
+	font-size: 32px;
+	font-family: cursive;
+	font-weight: bold;
+}
 
 figcaption{
 	font-weight: normal;
@@ -11,7 +18,15 @@ figcaption{
 	font-family: georgia, "new times roman" , serif;
 }
 
-.milk-text{font: bold 2.6em googleapis; color: white; text-shadow 0 2px 3px ;
+.milk-text{font: bold 2.6em googleapis; color: red; text-shadow 0 2px 3px ;
 }
 
-.logo{background: aqua}
+#logo{background: aqua}
+
+.footer {
+	text-align: center;
+	background: #ccc;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
